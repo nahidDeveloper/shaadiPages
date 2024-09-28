@@ -1,0 +1,150 @@
+.roadmap-container {
+    width: 1440px;
+    height: 1982px;
+    position: relative;
+    background: #fcf9ff;
+  }
+  
+  .section {
+    width: 699.61px;
+    height: 128px;
+    position: absolute;
+  }
+  
+  .section-content {
+    width: 550px;
+    height: 128px;
+    position: absolute;
+    left: 149.61px;
+    top: 0;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .section-title {
+    color: black;
+    font-size: 32px;
+    font-family: 'Lora';
+    font-weight: 700;
+    line-height: 41.13px;
+    word-wrap: break-word;
+  }
+  
+  .section-description {
+    align-self: stretch;
+    color: black;
+    font-size: 24px;
+    font-family: 'Lora';
+    font-weight: 400;
+    line-height: 30.85px;
+    word-wrap: break-word;
+  }
+  
+  .section-number {
+    position: absolute;
+    font-size: 96px;
+    font-family: 'Lora';
+    font-weight: 600;
+    line-height: 123.40px;
+    word-wrap: break-word;
+  }
+  
+  .yellow-box {
+    width: 608px;
+    height: 459px;
+    position: absolute;
+    background: #f9d733;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.18);
+    border-radius: 12px;
+  }
+  
+  .dotted-line {
+    width: 483px;
+    height: 0;
+    position: absolute;
+    opacity: 0.20;
+    border: 4px #ae3a8e dotted;
+  }
+  
+  .rotated {
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+    opacity: 0.75;
+  }
+  
+  .button {
+    width: 500px;
+    height: 70px;
+    padding: 12px 24px;
+    position: absolute;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .button-text {
+    color: black;
+    font-size: 20px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word;
+  }
+  
+  .info-text {
+    height: 82px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    width: 486px;
+    color: black;
+    font-size: 32px;
+    font-family: 'Lora';
+    font-weight: 700;
+    line-height: 41.13px;
+    word-wrap: break-word;
+  }
+  
+  .image {
+    width: 92px;
+    height: 28.19px;
+    position: absolute;
+  }
+  
+  .roadmap-title {
+    width: 1119px;
+    height: 72px;
+    position: absolute;
+    opacity: 0.80;
+  }
+  
+  .roadmap-title-line {
+    width: 348px;
+    height: 4px;
+    top: 33px;
+    position: absolute;
+    background: #ae3a8e;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .roadmap-title-text {
+    top: 0;
+    position: absolute;
+    color: black;
+    font-size: 56px;
+    font-family: 'Lora';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  

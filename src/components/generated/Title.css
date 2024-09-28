@@ -1,0 +1,199 @@
+.hero {
+  background-color: rgba(255, 249, 249, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  position: relative; /* Positioning for absolute elements like the flowers */
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1322px;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family: Lora, sans-serif;
+  flex-wrap: wrap;
+  margin-top: 20px; /* Adding margin to push content down */
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.hero-image {
+  aspect-ratio: 5.68;
+  object-fit: contain;
+  object-position: center;
+  width: 284px;
+  max-width: 100%;
+}
+
+.hero-title {
+  color: rgba(0, 0, 0, 1);
+  font-size: 56px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  .hero-title {
+    font-size: 40px;
+  }
+}
+
+.hero-subtitle {
+  color: rgba(174, 58, 142, 1);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  max-width: 100%; /* Fixing width */
+}
+
+.secondary-image {
+  aspect-ratio: 0.94;
+  object-fit: contain;
+  object-position: center;
+  width: 201px;
+  max-width: 100%;
+}
+
+.secondary-section {
+  width: 100%;
+  margin-top: 20px; /* Adding margin to push content down */
+}
+
+.secondary-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .secondary-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Reducing gap on mobile */
+  }
+}
+
+.column {
+  width: 32%;
+}
+
+@media (max-width: 991px) {
+  .column {
+    width: 100%;
+    text-align: center; /* Centering on mobile */
+  }
+}
+
+.call-to-action {
+  margin-top: 32px;
+  color: rgba(255, 255, 255, 1);
+  font: 500 20px/1 DM Sans, sans-serif;
+  text-align: center;
+}
+
+/* CTA button */
+.cta-button {
+  display: inline-block;
+  text-align: center;
+  background-color: #ae3a8e; /* Button color */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px; /* Added padding for bigger button */
+  font-size: 18px;
+  cursor: pointer; /* Pointer cursor for hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  margin-top: 20px; /* Added margin */
+}
+
+/* Button hover effect */
+.cta-button:hover {
+  background-color: #932d76; /* Darker color on hover */
+}
+
+/* Button alignment fix */
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* Space between button and surrounding content */
+}
+
+.third-image {
+  aspect-ratio: 0.92;
+  object-fit: contain;
+  object-position: center;
+  width: 226px;
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+.column-full {
+  width: 68%;
+}
+
+@media (max-width: 991px) {
+  .column-full {
+    width: 100%;
+  }
+}
+
+.full-width-image {
+  aspect-ratio: 1.59;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  margin-top: 20px; /* Adding margin to push content down */
+}
+
+/* Flower adjustments */
+
+/* Bottom-left flower */
+.bottom-left-flower {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  height: auto;
+  z-index: -1; /* Behind other content */
+}
+
+@media (max-width: 991px) {
+  .bottom-left-flower {
+    width: 100px; /* Smaller on mobile */
+  }
+}
+
+/* Top-right flower (ensuring it stays) */
+.top-right-flower {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: auto;
+  z-index: -1;
+}
+
+@media (max-width: 991px) {
+  .top-right-flower {
+    width: 100px; /* Smaller on mobile */
+  }
+}
